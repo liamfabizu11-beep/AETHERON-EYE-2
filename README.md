@@ -6,8 +6,6 @@
 * **Entorno Operativo:** Órbita Baja Terrestre (LEO) - 400.00 km
 * **Objetivo de Desarrollo:** Contratista Aeroespacial / NASA Space Apps Challenge
 
----
-
 ## 📐 DESCRIPCIÓN TÉCNICA DEL SISTEMA (UPGRADE V2)
 El **AETHERON EYE-2** representa la evolución optimizada del sistema de reconocimiento de terreno y mira óptica. Este software resuelve el problema de la **Diferencia de Refracción Atmosférica** en tiempo real a nivel global, adaptando la orientación según prefijos telefónicos internacionales.
 
@@ -16,8 +14,6 @@ El **AETHERON EYE-2** representa la evolución optimizada del sistema de reconoc
 * **Precisión Centimétrica:** Reduce el margen de error de apuntamiento a **0.00 km** de desviación, clavando la retícula táctica fija sobre las antenas de la red inalámbrica.
 * **Control de Infraestructura Crítica:** Mecanismo asíncrono que regula los ciclos del reloj de la computadora de a bordo (OBC) a 3.0s si detecta saturación de memoria RAM por encima del 90%.
 * **Estabilización de Actitud Táctica:** Filtro matemático de contra-torque que atenúa en un 85% las perturbaciones causadas por el viento solar en el espacio profundo.
-
----
 
 ## 💻 TECNOLOGÍAS E INTEGRACIÓN DE SOFTWARE
 El ecosistema de código se encuentra desarrollado en **Python 3.11** con un motor de renderizado procedural estable en **Pygame y OpenGL** libre de parpadeos de fotogramas mediante búferes dobles (`DOUBLEBUF`). 
